@@ -4,6 +4,9 @@ import { NextResponse } from "next/server";
 export async function GET() {
   try {
     const xata = getXataClient();
+    if (!xata) {
+      throw new Error("Failed to initialize Xata client");
+    }
 
     // Fetch all pages from Xata
     const pages = await xata.db.pages.getAll();
