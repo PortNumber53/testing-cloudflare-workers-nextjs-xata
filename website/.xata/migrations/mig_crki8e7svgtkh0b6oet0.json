@@ -1,0 +1,27 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_crki8e7svgtkh0b6oet0",
+    "operations": [
+      {
+        "add_column": {
+          "up": "''",
+          "table": "pages",
+          "column": {
+            "pk": false,
+            "name": "slug",
+            "type": "text",
+            "unique": true,
+            "comment": "",
+            "nullable": false
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_crki8e7svgtkh0b6oet0",
+  "parent": "mig_crki8586ormubpfvtqag",
+  "schema": "public",
+  "startedAt": "2024-09-17T06:39:52.624496Z"
+}

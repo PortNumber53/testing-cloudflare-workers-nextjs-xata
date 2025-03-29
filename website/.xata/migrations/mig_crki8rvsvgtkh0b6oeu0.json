@@ -1,0 +1,27 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_crki8rvsvgtkh0b6oeu0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "pages",
+          "column": {
+            "pk": false,
+            "name": "content",
+            "type": "json",
+            "unique": false,
+            "comment": "",
+            "default": "'{}'",
+            "nullable": false
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_crki8rvsvgtkh0b6oeu0",
+  "parent": "mig_crki8ho6ormubpfvtqbg",
+  "schema": "public",
+  "startedAt": "2024-09-17T06:40:47.981707Z"
+}

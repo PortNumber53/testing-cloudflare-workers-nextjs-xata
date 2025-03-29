@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Mauricio-Otta-s-workspace-rr8013.us-east-1.xata.sh/db/dbmauriciootta",
+  "codegen": {
+    "output": "vendor/xata.ts"
+  }
+}
